@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\adm\\Desktop\\BackendCase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\csvoperations\\exportcsvfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\csvoperations\\exportcsvfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\csvoperations\\exportcsvfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\csvoperations\\exportcsvfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\abstractclientoperation\\abstractclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\abstractclientoperation\\abstractclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\bookingoperation\\postbooking\\postbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,7 +61,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PostBooking.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\BookingOperation\\PostBooking\\PostBooking.cs",
               "RelativeDocumentMoniker": "BackendCase\\Operations\\BookingOperation\\PostBooking\\PostBooking.cs",
@@ -123,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "BookingResult.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Output\\BookingResult.cs",
               "RelativeDocumentMoniker": "BackendCase\\Models\\Output\\BookingResult.cs",
@@ -136,33 +132,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ExportCSVFile.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\CSVOperations\\ExportCSVFile.cs",
               "RelativeDocumentMoniker": "BackendCase\\Operations\\CSVOperations\\ExportCSVFile.cs",
               "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\CSVOperations\\ExportCSVFile.cs",
               "RelativeToolTip": "BackendCase\\Operations\\CSVOperations\\ExportCSVFile.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAgwEsAAAANAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwEsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T20:11:53.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AbstractClientService.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\AbstractClientOperation\\AbstractClientService.cs",
-              "RelativeDocumentMoniker": "BackendCase\\Operations\\AbstractClientOperation\\AbstractClientService.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\AbstractClientOperation\\AbstractClientService.cs",
-              "RelativeToolTip": "BackendCase\\Operations\\AbstractClientOperation\\AbstractClientService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T19:56:14.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "CancelBooking.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\BookingOperation\\CancelBooking\\CancelBooking.cs",
               "RelativeDocumentMoniker": "BackendCase\\Operations\\BookingOperation\\CancelBooking\\CancelBooking.cs",
@@ -175,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "CancellingResult.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Output\\CancellingResult.cs",
               "RelativeDocumentMoniker": "BackendCase\\Models\\Output\\CancellingResult.cs",
@@ -188,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "BookingTest.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\BookingTest.cs",
               "RelativeDocumentMoniker": "BackEndCaseUnitTest\\BookingTest.cs",
@@ -201,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "FileConfigurationProvider.cs",
               "DocumentMoniker": "C:\\Users\\adm\\AppData\\Local\\SourceServer\\328bb66397247a025802dc85d89616a8cf97de2bba0f4e6073ed4313ee6acfee\\src\\libraries\\Microsoft.Extensions.Configuration.FileExtensions\\src\\FileConfigurationProvider.cs",
               "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\328bb66397247a025802dc85d89616a8cf97de2bba0f4e6073ed4313ee6acfee\\src\\libraries\\Microsoft.Extensions.Configuration.FileExtensions\\src\\FileConfigurationProvider.cs",
@@ -214,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "DoctorList.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Input\\DoctorList.cs",
               "RelativeDocumentMoniker": "BackendCase\\Models\\Input\\DoctorList.cs",
@@ -227,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "GetDoctorsData.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\GetDataOperation\\GetDoctorsData.cs",
               "RelativeDocumentMoniker": "BackendCase\\Operations\\GetDataOperation\\GetDoctorsData.cs",
@@ -240,20 +223,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ExportController.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Controllers\\ExportController.cs",
               "RelativeDocumentMoniker": "BackendCase\\Controllers\\ExportController.cs",
               "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Controllers\\ExportController.cs",
               "RelativeToolTip": "BackendCase\\Controllers\\ExportController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwAkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T14:50:11.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Program.cs",
               "RelativeDocumentMoniker": "BackendCase\\Program.cs",
@@ -265,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "GetDoctorsFreeSlotsData.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\GetDataOperation\\GetDoctorsFreeSlotsData.cs",
               "RelativeDocumentMoniker": "BackendCase\\Operations\\GetDataOperation\\GetDoctorsFreeSlotsData.cs",

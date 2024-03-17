@@ -38,7 +38,7 @@ namespace BackendCase.Controllers
 
         [HttpGet]
         [Route("ExportDoctersDataAsCSVWithFilter")]
-        public async Task<IActionResult> ExportDoctors(string columnName, string nationalityFilter)
+        public async Task<IActionResult> ExportDoctors(string columnName, string filter)
         {
             try
             {
@@ -46,7 +46,7 @@ namespace BackendCase.Controllers
 
                 var doctors = await doctor.GetDoctorsAsync();
 
-                ExportCSV<DoctorList> exportDoctors = new ExportCSV<DoctorList>(doctors, columnName, nationalityFilter);
+                ExportCSV<DoctorList> exportDoctors = new ExportCSV<DoctorList>(doctors, columnName, filter);
 
                 byte[] csvBytes = exportDoctors.ExportToCSV();
 
