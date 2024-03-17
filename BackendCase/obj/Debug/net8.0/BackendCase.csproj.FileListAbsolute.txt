@@ -30,3 +30,4 @@ C:\Users\adm\Desktop\BackendCase\BackendCase\obj\Debug\net8.0\refint\BackendCase
 C:\Users\adm\Desktop\BackendCase\BackendCase\obj\Debug\net8.0\BackendCase.pdb
 C:\Users\adm\Desktop\BackendCase\BackendCase\obj\Debug\net8.0\BackendCase.genruntimeconfig.cache
 C:\Users\adm\Desktop\BackendCase\BackendCase\obj\Debug\net8.0\ref\BackendCase.dll
+C:\Users\adm\Desktop\BackendCase\BackendCase\obj\Debug\net8.0\BackendCase.sourcelink.json
