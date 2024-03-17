@@ -1,0 +1,6 @@
+@BackendCase_HostAddress = http://localhost:5289
+
+GET {{BackendCase_HostAddress}}/BackendCase/
+Accept: application/json
+
+###
