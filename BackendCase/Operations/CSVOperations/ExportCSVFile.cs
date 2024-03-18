@@ -19,10 +19,13 @@ namespace BackendCase.Operations.CSVOperations
         public byte[] ExportToCSV()
         {
             DataTable dataTable = ListToDataTable(_list, _columnName, _parameter);
+            //Firstly we have to need to convert list to data table.
 
             string csvContent = DataTableToCSV(dataTable);
+            //After that we create string with data. Data format type is CSV
 
             byte[] csvBytes = Encoding.UTF8.GetBytes(csvContent);
+            // And we returned byte list because, CSV file also a text format we convert to CSV file in controller.
 
             return csvBytes;
         }
@@ -35,6 +38,7 @@ namespace BackendCase.Operations.CSVOperations
             foreach (var property in properties)
             {
                 table.Columns.Add(property.Name, property.PropertyType);
+                //Firstly we get and add a columns.
             }
 
             foreach (var item in list)
@@ -42,6 +46,7 @@ namespace BackendCase.Operations.CSVOperations
                 var values = new object[properties.Length];
                 for (int i = 0; i < properties.Length; i++)
                 {
+                    //We add a data row. But In case nned to be a manipulate row cell. We check column data and transform.
                     if (properties[i].Name == "gender")
                     {
                         string gender = (string)properties[i].GetValue(item);
@@ -58,6 +63,8 @@ namespace BackendCase.Operations.CSVOperations
             }
             if (parameters != "")
             {
+                // In cass needs to be a filtering data. For example nationality = "TUR"
+                // or any other column and value
                 return ListToDataTableWithFiltering(table, columnName, parameters);
             }
             return table;
@@ -73,6 +80,10 @@ namespace BackendCase.Operations.CSVOperations
                 {
                     filteredTable.ImportRow(row);
                 }
+            }
+            if (filteredTable.Rows[1] == null)
+            {
+                throw new ArgumentException("No Row Value Found!");
             }
 
             return filteredTable;

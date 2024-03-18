@@ -109,3 +109,4 @@ C:\Users\adm\Desktop\BackendCase\BackEndCaseUnitTest\obj\Debug\net8.0\refint\Bac
 C:\Users\adm\Desktop\BackendCase\BackEndCaseUnitTest\obj\Debug\net8.0\BackEndCaseUnitTest.pdb
 C:\Users\adm\Desktop\BackendCase\BackEndCaseUnitTest\obj\Debug\net8.0\BackEndCaseUnitTest.genruntimeconfig.cache
 C:\Users\adm\Desktop\BackendCase\BackEndCaseUnitTest\obj\Debug\net8.0\ref\BackEndCaseUnitTest.dll
+C:\Users\adm\Desktop\BackendCase\BackEndCaseUnitTest\obj\Debug\net8.0\BackEndCaseUnitTest.sourcelink.json

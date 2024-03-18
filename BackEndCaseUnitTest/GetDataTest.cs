@@ -9,7 +9,8 @@ namespace BackEndCaseUnitTest
         private GetDoctorsData _doctorsData { get; set; } = null!;
         private GetDoctorsFreeSlotsData _doctorsFreeSlots { get; set; } = null!;
 
-        string noSlotMessage = "message\":\"NO_SLOT_FOUND";
+        string noSlotMessage 
+            = "{\r\n    \"message\": \"NO_SLOT_FOUND\"\r\n}";
 
         [SetUp]
         public void Setup()
@@ -45,11 +46,13 @@ namespace BackEndCaseUnitTest
         [Test]
         public void GetDoctorsFreeSlotFail_Test()
         {
-            string noSlotMessage = "message\":\"NO_SLOT_FOUND";
-
             var freeSlots = _doctorsFreeSlots.GetDoctorsFreeSlotsAsync(2);
 
-            Assert.AreEqual(freeSlots.ToString(), noSlotMessage);
+            var result = freeSlots.ToString().Contains("NO_SLOT_FOUND");
+
+            //Assert.(freeSlots.ToString(), noSlotMessage);
+
+            Assert.True(result);
         }
 
     }

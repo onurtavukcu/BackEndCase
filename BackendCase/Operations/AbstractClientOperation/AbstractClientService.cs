@@ -6,7 +6,7 @@ namespace BackendCase.Operations.AbstractClientOperation
     {
         protected readonly HttpClient _httpClient;
 
-        private readonly string _baseRoute = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Url")["BaseUrl"];
+        private readonly string _baseRoute = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Url")["BaseUrl"];  // Get the base url from appsettings.json
 
         protected AbstractClientService(HttpClient httpClient)
         {
@@ -15,12 +15,12 @@ namespace BackendCase.Operations.AbstractClientOperation
 
         protected async Task<TReturn> GetAsync<TReturn>(string relativeUrl)
         {
-            HttpResponseMessage response = await _httpClient.GetAsync($"{_baseRoute}/{relativeUrl}");
+            HttpResponseMessage response = await _httpClient.GetAsync($"{_baseRoute}/{relativeUrl}"); // Call the url and get data. If call is success manage the data. else get an error message. and handle it. 
 
             if (response.IsSuccessStatusCode)
             {
-                var responseData = await _httpClient.GetStringAsync($"{_baseRoute}/{relativeUrl}"); 
-                return JsonSerializer.Deserialize<TReturn>(responseData);
+                var responseData = await _httpClient.GetStringAsync($"{_baseRoute}{relativeUrl}");
+                return JsonSerializer.Deserialize<TReturn>(responseData);  // Get data and deserialize incoming models.
             }
             else
             {
@@ -30,13 +30,14 @@ namespace BackendCase.Operations.AbstractClientOperation
             }
         }
 
-      protected async Task<TReturn> PostAsync<TReturn, TRequest>(string relativeUrl)
+        protected async Task<TReturn> PostAsync<TReturn, TRequest>(string relativeUrl)
         {
-            HttpResponseMessage response = await _httpClient.PostAsync($"{_baseRoute}/{relativeUrl}", null);
+            //Hata alıyor. !!
+            HttpResponseMessage response = await _httpClient.PostAsync($"{_baseRoute}{relativeUrl}", null); // Call the url and post data If call is success manage the data. else get an error message. and handle it. 
             if (response.IsSuccessStatusCode)
             {
                 var responseData = await response.Content.ReadAsStringAsync();
-                return JsonSerializer.Deserialize<TReturn>(responseData);
+                return JsonSerializer.Deserialize<TReturn>(responseData); // Get data and deserialize incoming models.
             }
             else
             {

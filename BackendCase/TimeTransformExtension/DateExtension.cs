@@ -11,6 +11,9 @@ namespace BackendCase.TimeTransformExtension
             culture.DateTimeFormat.DateSeparator = "/";
 
             return date.ToString("dd/MM/yyyy", culture);
+
+            // in default date seperator is '-' we have to transfor to '/' type b
+            // ecause url date type need to be '/' date seperator.
         }
     }
 }

@@ -5,16 +5,25 @@ namespace BackendCase
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-                        
+
             builder.Services.AddControllers();
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddHttpClient();
+            builder.Services.AddHttpClient(); // add HttpClient for use the HttpClient
+
+            builder.Services.AddCors(
+                cors => cors.AddPolicy("myCors", pb =>
+                {
+                    pb.AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod().Build();
+                })
+                );
 
             //builder.Services.AddScoped<InMemoryDb>();
-            
+
             //builder.Services.AddScoped<IUserService, UserService>();
 
             //builder.Services.AddAuthentication("BasicAuthentication")
@@ -39,7 +48,7 @@ namespace BackendCase
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            app.UseCors("myCors");
 
             app.MapControllers();
 

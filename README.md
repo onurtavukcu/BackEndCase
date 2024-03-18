@@ -106,7 +106,10 @@ public ExportCSV(List<T> list, string columnName = "", string parameter = "")
 
 
 There are many things worth adding to the project.
-- Database integration (I try to add inMemory database with EF Core but There was not enough time for different reasons)
+- Database integration 
+- Post data not with url, you have to send request body. its common use and best practice
+	url: +visibility, caching, bookmarking, sort filter use -length limit, security, comlexity, encoding, creating url with by hand
+	body: +flexible, security, complex data, seperation, UI side can use and define easyly - less visible, caching, parsing, compatibility
 - UI implementation / Blazor pages
 - In server; return certain error or message.
 

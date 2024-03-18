@@ -13,10 +13,11 @@ namespace BackendCase.Operations.BookingOperation.PostBooking
 
         public async Task<BookingResult> BookAppointmentAsync(BookingDetails booking)
         {
+            // For booking appointment we need to details. Also we send details in url. So we create a full url with details.
             StringBuilder query = new StringBuilder();
 
             query.Append($"VisitId={booking.VisitId}");
-            query.Append($"&startTime={MinHourExtension.Transform(booking.startTime)}");
+            query.Append($"&startTime={MinHourExtension.Transform(booking.startTime)}"); //url model needs to be hour minute and date transform.
             query.Append($"&endTime={MinHourExtension.Transform(booking.endTime)}");
             query.Append($"&date={DateExtension.Transform(booking.endTime)}");
             query.Append($"&PatientName={booking.patient.PatientName}");

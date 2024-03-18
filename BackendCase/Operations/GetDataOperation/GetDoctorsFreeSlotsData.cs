@@ -14,7 +14,7 @@ namespace BackendCase.Operations.GetDataOperation
             string parameteredUrl = relativeUrl + doctorId.ToString();
 
             var response = await GetAsync<DoctorFreeSlotsWrapper>(parameteredUrl);
-
+            // call abstract Client with return type.
             return response.data;
 
         }

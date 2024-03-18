@@ -11,12 +11,12 @@ namespace BackendCase.Operations.BookingOperation.CancelBooking
 
         public async Task<CancellingResult> CancelAppointmentAsync(int bookingId)
         {
-            return await PostAsync<CancellingResult, object>(relativeUrl + "BookingID=" + bookingId);
+            return await PostAsync<CancellingResult, object>(relativeUrl + "BookingID=" + bookingId); // Cancel booking only need bookingId. we send the bookingId in url.
         }
 
-        public async Task<CancellingResult> WrongUrlTest()
+        public async Task<CancellingResult> WrongUrlTest()  // In test case we need to wrong url. But url form not fit in our url models so we add extra function for it.
         {
-            string url = "https://3aff8cc7-91f8-4577-bef3-e566d6c41d74.mock.pstmn.io/cancelVisit";
+            string url = "https://fe8f4f5e-f5c2-48b6-974c-097f4cec3de0.mock.pstmn.io/cancelVisit";
 
             var responseData = await _httpClient.GetStringAsync(url);
 

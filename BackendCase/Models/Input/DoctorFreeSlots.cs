@@ -5,20 +5,20 @@ namespace BackendCase.Models.Input
 {
     public class DoctorFreeSlots
     {
-        [JsonPropertyName("id")]
-        public string idString { get; set; }
-        public int SlotId
-        {
-            get
-            {
-                return int.Parse(idString);
-            }
-            set
-            {
+        //[JsonPropertyName("id")]
+        public string id { get; set; }
+        //public int SlotId
+        //{
+        //    get
+        //    {
+        //        return int.Parse(idString);
+        //    }
+        //    set
+        //    {
 
-            }
-        }
-        public DoctorList doctorId { get; set; }
+        //    }
+        //}
+        public int doctorId { get; set; }
         public int VisitId { get; set; }
         public DateTime startTime { get; set; }
         public DateTime endTime { get; set; }
