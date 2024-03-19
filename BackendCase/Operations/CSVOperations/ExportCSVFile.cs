@@ -81,10 +81,10 @@ namespace BackendCase.Operations.CSVOperations
                     filteredTable.ImportRow(row);
                 }
             }
-            if (filteredTable.Rows[1] == null)
-            {
-                throw new ArgumentException("No Row Value Found!");
-            }
+            //if (filteredTable.Rows[1] == null)
+            //{
+            //    throw new ArgumentException("No Row Value Found!");
+            //}
 
             return filteredTable;
         }

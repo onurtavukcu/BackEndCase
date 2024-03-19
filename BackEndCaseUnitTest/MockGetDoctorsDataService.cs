@@ -1,27 +1,14 @@
 ﻿using BackendCase.Models.Input;
-using BackendCase.Operations.BookingOperation.CancelBooking;
 using BackendCase.Operations.GetDataOperation;
-using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
+using Microsoft.VisualBasic.FileIO;
 
 namespace BackEndCaseUnitTest
 {
-    public class GetDataTest
+    public class MockGetDoctorsDataService : MockBookingService, IGetDoctorsDataService
     {
-        private readonly HttpClient _client;
-        private IGetDoctorsDataService _doctorsData { get; set; } = null!;
-        private IGetDoctorsFreeSlotsDataService _doctorsFreeSlots { get; set; } = null!;
-        private IGetDoctorsFreeSlotsDataService getDoctorsFreeSlotsDataService{ get; set; }
-        private DoctorListWrapper _doctorListWrapper { get; set; }
-        private DoctorFreeSlotsWrapper _doctorListFreeSlot { get; set; }
-
-        [SetUp]
-        public void Setup()
+        public Task<DoctorListWrapper> Handle()
         {
-            _doctorsData = new MockGetDoctorsDataService();
-            _doctorsFreeSlots = new MockGetDoctorsFreeSlotsDataService();
-
-            #region doctorList
-            _doctorListWrapper = new DoctorListWrapper();
+            DoctorListWrapper wrapper = new DoctorListWrapper();
 
             var doctor1 = new DoctorList()
             {
@@ -153,87 +140,19 @@ namespace BackEndCaseUnitTest
                 createdAt = new DateTime(2022, 05, 19, 19, 12, 58, 359)
             };
 
-            _doctorListWrapper.data.Add(doctor1);
-            _doctorListWrapper.data.Add(doctor2);
-            _doctorListWrapper.data.Add(doctor3);
-            _doctorListWrapper.data.Add(doctor4);
-            _doctorListWrapper.data.Add(doctor5);
-            _doctorListWrapper.data.Add(doctor6);
-            _doctorListWrapper.data.Add(doctor7);
-            _doctorListWrapper.data.Add(doctor8);
-            _doctorListWrapper.data.Add(doctor9);
-            _doctorListWrapper.data.Add(doctor10);
-            #endregion
+            wrapper.data.Add(doctor1);
+            wrapper.data.Add(doctor2);
+            wrapper.data.Add(doctor3);
+            wrapper.data.Add(doctor4);
+            wrapper.data.Add(doctor5);
+            wrapper.data.Add(doctor6);
+            wrapper.data.Add(doctor7);
+            wrapper.data.Add(doctor8);
+            wrapper.data.Add(doctor9);
+            wrapper.data.Add(doctor10);
 
-            #region doctorlistFreeSlot
-            _doctorListFreeSlot = new DoctorFreeSlotsWrapper();
+            return Task.FromResult(wrapper);
 
-            DoctorFreeSlots doctorFreeSlots1 = new DoctorFreeSlots()
-            {
-                id = "1",
-                doctorId = 3,
-                VisitId = 551231,
-                startTime = new DateTime(2022, 05, 31, 10, 30, 00, 000),
-                endTime = new DateTime(2022, 05, 31, 10, 45, 00, 000)
-            };
-
-            DoctorFreeSlots doctorFreeSlots2 = new DoctorFreeSlots()
-            {
-                id = "2",
-                doctorId = 3,
-                VisitId = 252312,
-                startTime = new DateTime(2022, 06, 01, 10, 30, 00, 000),
-                endTime = new DateTime(2022, 06, 01, 10, 45, 00, 000)
-            };
-
-            DoctorFreeSlots doctorFreeSlots3 = new DoctorFreeSlots()
-            {
-                id = "3",
-                doctorId = 3,
-                VisitId = 652123,
-                startTime = new DateTime(2022, 06, 01, 10, 45, 00, 000),
-                endTime = new DateTime(2022, 06, 01, 10, 55, 00, 000)
-            };
-
-            DoctorFreeSlots doctorFreeSlots4 = new DoctorFreeSlots()
-            {
-                id = "4",
-                doctorId = 3,
-                VisitId = 923112,
-                startTime = new DateTime(2022, 06, 01, 16, 30, 00, 000),
-                endTime = new DateTime(2022, 06, 01, 16, 50, 00, 000)
-            };
-
-            _doctorListFreeSlot.data.Add(doctorFreeSlots1);
-            _doctorListFreeSlot.data.Add(doctorFreeSlots2);
-            _doctorListFreeSlot.data.Add(doctorFreeSlots3);
-            _doctorListFreeSlot.data.Add(doctorFreeSlots4);
         }
-# endregion
-
-        [Test]
-        public void GetDoctorsData_Test()
-        {
-            var doctorList = _doctorsData.Handle();
-
-            Assert.AreEqual(doctorList.Result, _doctorListWrapper);
-        }
-
-        [Test]
-        public void GetDoctorsFreeSlotSuccess_Test()
-        {
-            var freeSlots = _doctorsFreeSlots.Handle(3);
-
-            Assert.AreNotEqual(freeSlots.Result, _doctorListFreeSlot);
-        }
-
-        [Test]
-        public void GetDoctorsFreeSlotFail_Test()
-        {
-            var freeSlots = _doctorsFreeSlots.Handle(2);
-
-            Assert.AreNotEqual(freeSlots.Result, _doctorListFreeSlot);
-        }
-
     }
 }

@@ -110,3 +110,6 @@ C:\Users\adm\Desktop\BackendCase\BackEndCaseUnitTest\obj\Debug\net8.0\BackEndCas
 C:\Users\adm\Desktop\BackendCase\BackEndCaseUnitTest\obj\Debug\net8.0\BackEndCaseUnitTest.genruntimeconfig.cache
 C:\Users\adm\Desktop\BackendCase\BackEndCaseUnitTest\obj\Debug\net8.0\ref\BackEndCaseUnitTest.dll
 C:\Users\adm\Desktop\BackendCase\BackEndCaseUnitTest\obj\Debug\net8.0\BackEndCaseUnitTest.sourcelink.json
+C:\Users\adm\Desktop\BackendCase\BackEndCaseUnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\adm\Desktop\BackendCase\BackEndCaseUnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\adm\Desktop\BackendCase\BackEndCaseUnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

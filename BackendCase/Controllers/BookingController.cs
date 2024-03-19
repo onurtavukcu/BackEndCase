@@ -10,24 +10,15 @@ namespace BackendCase.Controllers
     [Route("[controller]")]
     public class BookingController : ControllerBase
     {
-        private readonly HttpClient _client;
-
-        public BookingController(HttpClient client)
-        {
-            _client = client;
-        }
-
         [HttpGet]
         [Route("GetDoctors")]
-        public async Task<IActionResult> GetDoctorsAsync()
+        public async Task<IActionResult> GetDoctorsAsync([FromServices] IGetDoctorsDataService doctorsService)
         {
             try
             {
-                var doctors = new GetDoctorsData(_client);
+                var result = await doctorsService.Handle();
 
-                var result = await doctors.GetDoctorsAsync();
-
-                return await Task.FromResult<IActionResult>(Ok(result));
+                return await Task.FromResult<IActionResult>(Ok(result.data));
 
             }
             catch (Exception e)
@@ -38,15 +29,13 @@ namespace BackendCase.Controllers
 
         [HttpGet]
         [Route("GetDoctorsFreeSlots/{doctorId:int}")]
-        public async Task<IActionResult> GetDoctorsFreeSlotsAsync(int doctorId)
+        public async Task<IActionResult> GetDoctorsFreeSlotsAsync(int doctorId, [FromServices] IGetDoctorsFreeSlotsDataService doctorsService)
         {
             try
             {
-                var doctors = new GetDoctorsFreeSlotsData(_client);
+                var result = await doctorsService.Handle(doctorId);
 
-                var result = await doctors.GetDoctorsFreeSlotsAsync(doctorId);
-
-                return await Task.FromResult<IActionResult>(Ok(result));
+                return await Task.FromResult<IActionResult>(Ok(result.data));
             }
             catch (Exception e)
             {
@@ -56,13 +45,11 @@ namespace BackendCase.Controllers
 
         [HttpPost]
         [Route("Book")]
-        public async Task<IActionResult> PostBooking(BookingDetails booking)
+        public async Task<IActionResult> PostBooking([FromBody] BookingDetails booking, [FromServices] IPostBookingService bookingService)
         {
             try
             {
-                var book = new PostBooking(_client);
-
-                var result = await book.BookAppointmentAsync(booking);
+                var result = await bookingService.Handle(booking);
 
                 return await Task.FromResult<IActionResult>(Ok(result));
             }
@@ -74,13 +61,12 @@ namespace BackendCase.Controllers
 
         [HttpPost]
         [Route("CancelBook")]
-        public async Task<IActionResult> CancelBooking(int bookId)
+        public async Task<IActionResult> CancelBooking(int bookId, [FromServices] ICancelBookingService cancelBookingService)
         {
             try
             {
-                var book = new CancelBooking(_client);
-
-                var result = await book.CancelAppointmentAsync(bookId);
+                //var result = await book.CancelAppointmentAsync(bookId);
+                var result = await cancelBookingService.Handle(bookId);
 
                 return await Task.FromResult<IActionResult>(Ok(result));
             }

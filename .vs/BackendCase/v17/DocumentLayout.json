@@ -7,60 +7,103 @@
       "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{611BD674-3530-47EA-9DAA-E038A23B0BB8}|BackEndCaseUnitTest\\BackEndCaseUnitTest.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcaseunittest\\getdatatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{611BD674-3530-47EA-9DAA-E038A23B0BB8}|BackEndCaseUnitTest\\BackEndCaseUnitTest.csproj|solutionrelative:backendcaseunittest\\getdatatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\getdataoperation\\getdoctorsfreeslotsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\getdataoperation\\getdoctorsfreeslotsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{611BD674-3530-47EA-9DAA-E038A23B0BB8}|BackEndCaseUnitTest\\BackEndCaseUnitTest.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcaseunittest\\bookingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{611BD674-3530-47EA-9DAA-E038A23B0BB8}|BackEndCaseUnitTest\\BackEndCaseUnitTest.csproj|solutionrelative:backendcaseunittest\\bookingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\timetransformextension\\minhourextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\timetransformextension\\minhourextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{611BD674-3530-47EA-9DAA-E038A23B0BB8}|BackEndCaseUnitTest\\BackEndCaseUnitTest.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcaseunittest\\mockcancelbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BD674-3530-47EA-9DAA-E038A23B0BB8}|BackEndCaseUnitTest\\BackEndCaseUnitTest.csproj|solutionrelative:backendcaseunittest\\mockcancelbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\timetransformextension\\dateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\timetransformextension\\dateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\bookingoperation\\cancelbooking\\cancelbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\bookingoperation\\cancelbooking\\cancelbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\getdataoperation\\getdoctorsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\getdataoperation\\getdoctorsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{611BD674-3530-47EA-9DAA-E038A23B0BB8}|BackEndCaseUnitTest\\BackEndCaseUnitTest.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcaseunittest\\mockgetdoctorsdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BD674-3530-47EA-9DAA-E038A23B0BB8}|BackEndCaseUnitTest\\BackEndCaseUnitTest.csproj|solutionrelative:backendcaseunittest\\mockgetdoctorsdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\csvoperations\\exportcsvfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\csvoperations\\exportcsvfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\bookingoperation\\postbooking\\postbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\bookingoperation\\postbooking\\postbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{611BD674-3530-47EA-9DAA-E038A23B0BB8}|BackEndCaseUnitTest\\BackEndCaseUnitTest.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcaseunittest\\mockpostbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BD674-3530-47EA-9DAA-E038A23B0BB8}|BackEndCaseUnitTest\\BackEndCaseUnitTest.csproj|solutionrelative:backendcaseunittest\\mockpostbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\models\\input\\bookingdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\models\\input\\bookingdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\timetransformextension\\dateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\timetransformextension\\dateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\bookingoperation\\postbooking\\postbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\bookingoperation\\postbooking\\postbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\timetransformextension\\minhourextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\timetransformextension\\minhourextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611BD674-3530-47EA-9DAA-E038A23B0BB8}|BackEndCaseUnitTest\\BackEndCaseUnitTest.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcaseunittest\\mockgetdoctorsfreeslotsdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611BD674-3530-47EA-9DAA-E038A23B0BB8}|BackEndCaseUnitTest\\BackEndCaseUnitTest.csproj|solutionrelative:backendcaseunittest\\mockgetdoctorsfreeslotsdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\abstractclientoperation\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\abstractclientoperation\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\bookingoperation\\postbooking\\ipostbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\bookingoperation\\postbooking\\ipostbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\models\\output\\bookingresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\models\\output\\bookingresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\models\\output\\freeslotresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\models\\output\\freeslotresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\models\\input\\doctorfreeslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\models\\input\\doctorfreeslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\getdataoperation\\igetdoctorsfreeslotsdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\getdataoperation\\igetdoctorsfreeslotsdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\getdataoperation\\igetdoctorsdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\getdataoperation\\igetdoctorsdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\bookingoperation\\cancelbooking\\icancelbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\bookingoperation\\cancelbooking\\icancelbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\models\\output\\cancellingresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\models\\output\\cancellingresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\models\\input\\doctorlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\models\\input\\doctorlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\operations\\csvoperations\\exportcsvfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\operations\\csvoperations\\exportcsvfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adm\\AppData\\Local\\SourceServer\\ccc71c1cdc7240231ea0cf58485a4544fb6b9a01c86d1bd40d30066cf5e291ab\\src\\libraries\\System.Data.Common\\src\\System\\Data\\RbTree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|c:\\users\\adm\\desktop\\backendcase\\backendcase\\models\\input\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7968D1F-E9A6-4569-A828-461FD1FDF8E9}|BackendCase\\BackendCase.csproj|solutionrelative:backendcase\\models\\input\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adm\\AppData\\Local\\SourceServer\\328bb66397247a025802dc85d89616a8cf97de2bba0f4e6073ed4313ee6acfee\\src\\libraries\\Microsoft.Extensions.Configuration.FileExtensions\\src\\FileConfigurationProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -73,8 +116,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Program.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Program.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Program.cs",
+              "RelativeToolTip": "BackendCase\\Program.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwEYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:12:32.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MockCancelBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\MockCancelBookingService.cs",
+              "RelativeDocumentMoniker": "BackEndCaseUnitTest\\MockCancelBookingService.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\MockCancelBookingService.cs",
+              "RelativeToolTip": "BackEndCaseUnitTest\\MockCancelBookingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:10:15.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MockGetDoctorsDataService.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\MockGetDoctorsDataService.cs",
+              "RelativeDocumentMoniker": "BackEndCaseUnitTest\\MockGetDoctorsDataService.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\MockGetDoctorsDataService.cs",
+              "RelativeToolTip": "BackEndCaseUnitTest\\MockGetDoctorsDataService.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAwAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:08:42.47Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
@@ -105,149 +187,306 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExportController.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Controllers\\ExportController.cs",
-              "RelativeDocumentMoniker": "BackendCase\\Controllers\\ExportController.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Controllers\\ExportController.cs",
-              "RelativeToolTip": "BackendCase\\Controllers\\ExportController.cs",
+              "DocumentIndex": 10,
+              "Title": "MinHourExtension.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\TimeTransformExtension\\MinHourExtension.cs",
+              "RelativeDocumentMoniker": "BackendCase\\TimeTransformExtension\\MinHourExtension.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\TimeTransformExtension\\MinHourExtension.cs",
+              "RelativeToolTip": "BackendCase\\TimeTransformExtension\\MinHourExtension.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T13:28:55.349Z",
+              "WhenOpened": "2024-03-19T12:59:58.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetDataTest.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\GetDataTest.cs",
-              "RelativeDocumentMoniker": "BackEndCaseUnitTest\\GetDataTest.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\GetDataTest.cs",
-              "RelativeToolTip": "BackEndCaseUnitTest\\GetDataTest.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAkwDYAAAAgAAAA",
+              "DocumentIndex": 8,
+              "Title": "DateExtension.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\TimeTransformExtension\\DateExtension.cs",
+              "RelativeDocumentMoniker": "BackendCase\\TimeTransformExtension\\DateExtension.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\TimeTransformExtension\\DateExtension.cs",
+              "RelativeToolTip": "BackendCase\\TimeTransformExtension\\DateExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T12:39:32.211Z",
+              "WhenOpened": "2024-03-19T12:59:57.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "MockGetDoctorsFreeSlotsDataService.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\MockGetDoctorsFreeSlotsDataService.cs",
+              "RelativeDocumentMoniker": "BackEndCaseUnitTest\\MockGetDoctorsFreeSlotsDataService.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\MockGetDoctorsFreeSlotsDataService.cs",
+              "RelativeToolTip": "BackEndCaseUnitTest\\MockGetDoctorsFreeSlotsDataService.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAQwDkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:51:54.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IGetDoctorsFreeSlotsDataService.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\GetDataOperation\\IGetDoctorsFreeSlotsDataService.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Operations\\GetDataOperation\\IGetDoctorsFreeSlotsDataService.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\GetDataOperation\\IGetDoctorsFreeSlotsDataService.cs",
+              "RelativeToolTip": "BackendCase\\Operations\\GetDataOperation\\IGetDoctorsFreeSlotsDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:44:54.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IGetDoctorsDataService.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\GetDataOperation\\IGetDoctorsDataService.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Operations\\GetDataOperation\\IGetDoctorsDataService.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\GetDataOperation\\IGetDoctorsDataService.cs",
+              "RelativeToolTip": "BackendCase\\Operations\\GetDataOperation\\IGetDoctorsDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:44:52.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FreeSlotResult.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Output\\FreeSlotResult.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Models\\Output\\FreeSlotResult.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Output\\FreeSlotResult.cs",
+              "RelativeToolTip": "BackendCase\\Models\\Output\\FreeSlotResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:10:11.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CancellingResult.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Output\\CancellingResult.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Models\\Output\\CancellingResult.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Output\\CancellingResult.cs",
+              "RelativeToolTip": "BackendCase\\Models\\Output\\CancellingResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:10:10.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookingResult.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Output\\BookingResult.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Models\\Output\\BookingResult.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Output\\BookingResult.cs",
+              "RelativeToolTip": "BackendCase\\Models\\Output\\BookingResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:10:08.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPostBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\BookingOperation\\PostBooking\\IPostBookingService.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Operations\\BookingOperation\\PostBooking\\IPostBookingService.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\BookingOperation\\PostBooking\\IPostBookingService.cs",
+              "RelativeToolTip": "BackendCase\\Operations\\BookingOperation\\PostBooking\\IPostBookingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:05:21.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ExportController.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Controllers\\ExportController.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Controllers\\ExportController.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Controllers\\ExportController.cs",
+              "RelativeToolTip": "BackendCase\\Controllers\\ExportController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAtwB8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T22:22:44.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RbTree.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\AppData\\Local\\SourceServer\\ccc71c1cdc7240231ea0cf58485a4544fb6b9a01c86d1bd40d30066cf5e291ab\\src\\libraries\\System.Data.Common\\src\\System\\Data\\RbTree.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\ccc71c1cdc7240231ea0cf58485a4544fb6b9a01c86d1bd40d30066cf5e291ab\\src\\libraries\\System.Data.Common\\src\\System\\Data\\RbTree.cs",
+              "ToolTip": "C:\\Users\\adm\\AppData\\Local\\SourceServer\\ccc71c1cdc7240231ea0cf58485a4544fb6b9a01c86d1bd40d30066cf5e291ab\\src\\libraries\\System.Data.Common\\src\\System\\Data\\RbTree.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\ccc71c1cdc7240231ea0cf58485a4544fb6b9a01c86d1bd40d30066cf5e291ab\\src\\libraries\\System.Data.Common\\src\\System\\Data\\RbTree.cs [Read Only]",
+              "ViewState": "AQIAAKAFAAAAAAAAAAAlwLkFAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T22:22:57.481Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICancelBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\BookingOperation\\CancelBooking\\ICancelBookingService.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Operations\\BookingOperation\\CancelBooking\\ICancelBookingService.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\BookingOperation\\CancelBooking\\ICancelBookingService.cs",
+              "RelativeToolTip": "BackendCase\\Operations\\BookingOperation\\CancelBooking\\ICancelBookingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T20:47:40.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\AbstractClientOperation\\IBookingService.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Operations\\AbstractClientOperation\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\AbstractClientOperation\\IBookingService.cs",
+              "RelativeToolTip": "BackendCase\\Operations\\AbstractClientOperation\\IBookingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T20:36:40.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MockPostBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\MockPostBookingService.cs",
+              "RelativeDocumentMoniker": "BackEndCaseUnitTest\\MockPostBookingService.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\MockPostBookingService.cs",
+              "RelativeToolTip": "BackEndCaseUnitTest\\MockPostBookingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T20:27:37.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetDataTest.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\GetDataTest.cs",
+              "RelativeDocumentMoniker": "BackEndCaseUnitTest\\GetDataTest.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\GetDataTest.cs",
+              "RelativeToolTip": "BackEndCaseUnitTest\\GetDataTest.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA5wOEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:47:41.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ExportCSVFile.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\CSVOperations\\ExportCSVFile.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Operations\\CSVOperations\\ExportCSVFile.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\CSVOperations\\ExportCSVFile.cs",
+              "RelativeToolTip": "BackendCase\\Operations\\CSVOperations\\ExportCSVFile.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAswEkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:03:38.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CancelBooking.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\BookingOperation\\CancelBooking\\CancelBooking.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Operations\\BookingOperation\\CancelBooking\\CancelBooking.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\BookingOperation\\CancelBooking\\CancelBooking.cs",
+              "RelativeToolTip": "BackendCase\\Operations\\BookingOperation\\CancelBooking\\CancelBooking.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwBwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:02:25.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PostBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\BookingOperation\\PostBooking\\PostBookingService.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Operations\\BookingOperation\\PostBooking\\PostBookingService.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\BookingOperation\\PostBooking\\PostBookingService.cs",
+              "RelativeToolTip": "BackendCase\\Operations\\BookingOperation\\PostBooking\\PostBookingService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAqwCcAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:02:15.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Input\\Patient.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Models\\Input\\Patient.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Input\\Patient.cs",
+              "RelativeToolTip": "BackendCase\\Models\\Input\\Patient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T18:58:06.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "BackendCase\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "BackendCase\\Controllers\\BookingController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwDMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T15:34:04.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BookingDetails.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Input\\BookingDetails.cs",
               "RelativeDocumentMoniker": "BackendCase\\Models\\Input\\BookingDetails.cs",
               "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Input\\BookingDetails.cs",
               "RelativeToolTip": "BackendCase\\Models\\Input\\BookingDetails.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T12:18:36.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PostBooking.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\BookingOperation\\PostBooking\\PostBooking.cs",
-              "RelativeDocumentMoniker": "BackendCase\\Operations\\BookingOperation\\PostBooking\\PostBooking.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\BookingOperation\\PostBooking\\PostBooking.cs",
-              "RelativeToolTip": "BackendCase\\Operations\\BookingOperation\\PostBooking\\PostBooking.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T11:36:33.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "DoctorFreeSlots.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Input\\DoctorFreeSlots.cs",
               "RelativeDocumentMoniker": "BackendCase\\Models\\Input\\DoctorFreeSlots.cs",
               "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Input\\DoctorFreeSlots.cs",
               "RelativeToolTip": "BackendCase\\Models\\Input\\DoctorFreeSlots.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T10:30:31.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MinHourExtension.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\TimeTransformExtension\\MinHourExtension.cs",
-              "RelativeDocumentMoniker": "BackendCase\\TimeTransformExtension\\MinHourExtension.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\TimeTransformExtension\\MinHourExtension.cs",
-              "RelativeToolTip": "BackendCase\\TimeTransformExtension\\MinHourExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T20:58:14.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DateExtension.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\TimeTransformExtension\\DateExtension.cs",
-              "RelativeDocumentMoniker": "BackendCase\\TimeTransformExtension\\DateExtension.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\TimeTransformExtension\\DateExtension.cs",
-              "RelativeToolTip": "BackendCase\\TimeTransformExtension\\DateExtension.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA8AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T20:57:48.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "BackendCase\\Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "BackendCase\\Controllers\\BookingController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCEAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T20:13:39.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ExportCSVFile.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\CSVOperations\\ExportCSVFile.cs",
-              "RelativeDocumentMoniker": "BackendCase\\Operations\\CSVOperations\\ExportCSVFile.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\CSVOperations\\ExportCSVFile.cs",
-              "RelativeToolTip": "BackendCase\\Operations\\CSVOperations\\ExportCSVFile.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAiwEIAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T20:11:53.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CancellingResult.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Output\\CancellingResult.cs",
-              "RelativeDocumentMoniker": "BackendCase\\Models\\Output\\CancellingResult.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Output\\CancellingResult.cs",
-              "RelativeToolTip": "BackendCase\\Models\\Output\\CancellingResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T19:50:56.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "BookingTest.cs",
               "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\BookingTest.cs",
               "RelativeDocumentMoniker": "BackEndCaseUnitTest\\BookingTest.cs",
               "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackEndCaseUnitTest\\BookingTest.cs",
               "RelativeToolTip": "BackEndCaseUnitTest\\BookingTest.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAIA9wF0AAAA2AAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAASwE8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T19:50:50.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "FileConfigurationProvider.cs",
               "DocumentMoniker": "C:\\Users\\adm\\AppData\\Local\\SourceServer\\328bb66397247a025802dc85d89616a8cf97de2bba0f4e6073ed4313ee6acfee\\src\\libraries\\Microsoft.Extensions.Configuration.FileExtensions\\src\\FileConfigurationProvider.cs",
               "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\328bb66397247a025802dc85d89616a8cf97de2bba0f4e6073ed4313ee6acfee\\src\\libraries\\Microsoft.Extensions.Configuration.FileExtensions\\src\\FileConfigurationProvider.cs",
@@ -255,57 +494,7 @@
               "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\328bb66397247a025802dc85d89616a8cf97de2bba0f4e6073ed4313ee6acfee\\src\\libraries\\Microsoft.Extensions.Configuration.FileExtensions\\src\\FileConfigurationProvider.cs",
               "ViewState": "AQIAAFUAAAAAAAAAAADwv2MAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T18:58:13.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DoctorList.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Input\\DoctorList.cs",
-              "RelativeDocumentMoniker": "BackendCase\\Models\\Input\\DoctorList.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Models\\Input\\DoctorList.cs",
-              "RelativeToolTip": "BackendCase\\Models\\Input\\DoctorList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T18:57:04.609Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetDoctorsData.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\GetDataOperation\\GetDoctorsData.cs",
-              "RelativeDocumentMoniker": "BackendCase\\Operations\\GetDataOperation\\GetDoctorsData.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\GetDataOperation\\GetDoctorsData.cs",
-              "RelativeToolTip": "BackendCase\\Operations\\GetDataOperation\\GetDoctorsData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T15:23:53.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Program.cs",
-              "RelativeDocumentMoniker": "BackendCase\\Program.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Program.cs",
-              "RelativeToolTip": "BackendCase\\Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwDIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T14:42:14.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetDoctorsFreeSlotsData.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\GetDataOperation\\GetDoctorsFreeSlotsData.cs",
-              "RelativeDocumentMoniker": "BackendCase\\Operations\\GetDataOperation\\GetDoctorsFreeSlotsData.cs",
-              "ToolTip": "C:\\Users\\adm\\Desktop\\BackendCase\\BackendCase\\Operations\\GetDataOperation\\GetDoctorsFreeSlotsData.cs",
-              "RelativeToolTip": "BackendCase\\Operations\\GetDataOperation\\GetDoctorsFreeSlotsData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T14:40:44.627Z",
+              "WhenOpened": "2024-03-17T18:58:13.587Z",
               "EditorCaption": ""
             }
           ]

@@ -18,11 +18,11 @@ namespace BackendCase.Controllers
         {
             try
             {
-                var doctor = new GetDoctorsData(_client);
+                var doctor = new GetDoctorsDataService(_client);
 
-                var doctors = await doctor.GetDoctorsAsync();
+                var doctors = await doctor.Handle();
 
-                ExportCSV<DoctorList> exportDoctors = new ExportCSV<DoctorList>(doctors);
+                ExportCSV<DoctorList> exportDoctors = new ExportCSV<DoctorList>(doctors.data);
 
                 byte[] csvBytes = exportDoctors.ExportToCSV();
 
@@ -42,11 +42,11 @@ namespace BackendCase.Controllers
         {
             try
             {
-                var doctor = new GetDoctorsData(_client);
+                var doctor = new GetDoctorsDataService(_client);
 
-                var doctors = await doctor.GetDoctorsAsync();
+                var doctors = await doctor.Handle();
 
-                ExportCSV<DoctorList> exportDoctors = new ExportCSV<DoctorList>(doctors, columnName, filter);
+                ExportCSV<DoctorList> exportDoctors = new ExportCSV<DoctorList>(doctors.data, columnName, filter);
 
                 byte[] csvBytes = exportDoctors.ExportToCSV();
 
@@ -65,11 +65,11 @@ namespace BackendCase.Controllers
         {
             try
             {
-                var doctors = new GetDoctorsFreeSlotsData(_client);
+                var doctors = new GetDoctorsFreeSlotsDataService(_client);
 
-                var freeSlots = await doctors.GetDoctorsFreeSlotsAsync(doctorId);
+                var freeSlots = await doctors.Handle(doctorId);
 
-                ExportCSV<DoctorFreeSlots> exportDoctors = new ExportCSV<DoctorFreeSlots>(freeSlots);
+                ExportCSV<DoctorFreeSlots> exportDoctors = new ExportCSV<DoctorFreeSlots>(freeSlots.data);
 
                 byte[] csvBytes = exportDoctors.ExportToCSV();
 

@@ -31,3 +31,6 @@ C:\Users\adm\Desktop\BackendCase\BackendCase\obj\Debug\net8.0\BackendCase.pdb
 C:\Users\adm\Desktop\BackendCase\BackendCase\obj\Debug\net8.0\BackendCase.genruntimeconfig.cache
 C:\Users\adm\Desktop\BackendCase\BackendCase\obj\Debug\net8.0\ref\BackendCase.dll
 C:\Users\adm\Desktop\BackendCase\BackendCase\obj\Debug\net8.0\BackendCase.sourcelink.json
+C:\Users\adm\Desktop\BackendCase\BackendCase\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\adm\Desktop\BackendCase\BackendCase\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\adm\Desktop\BackendCase\BackendCase\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

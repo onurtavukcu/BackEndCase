@@ -1,3 +1,10 @@
+using BackendCase.Models.Input;
+using BackendCase.Models.Output;
+using BackendCase.Operations.AbstractClientOperation;
+using BackendCase.Operations.BookingOperation.CancelBooking;
+using BackendCase.Operations.BookingOperation.PostBooking;
+using BackendCase.Operations.GetDataOperation;
+
 namespace BackendCase
 {
     public class Program
@@ -13,16 +20,29 @@ namespace BackendCase
 
             builder.Services.AddHttpClient(); // add HttpClient for use the HttpClient
 
-            builder.Services.AddCors(
-                cors => cors.AddPolicy("myCors", pb =>
-                {
-                    pb.AllowAnyOrigin()
-                    .AllowAnyHeader()
-                    .AllowAnyMethod().Build();
-                })
-                );
+            builder.Services.AddTransient<IPostBookingService, PostBookingService>();
+            builder.Services.AddTransient<ICancelBookingService, CancelBookingService>();
+            builder.Services.AddTransient<IGetDoctorsDataService, GetDoctorsDataService>();
+            builder.Services.AddTransient<IGetDoctorsFreeSlotsDataService, GetDoctorsFreeSlotsDataService>();
 
-            //builder.Services.AddScoped<InMemoryDb>();
+
+            ////Start the UI react project but there was no time 
+            //builder.Services.AddCors( 
+            //    cors => cors.AddPolicy("myCors", pb =>
+            //    {
+            //        pb.AllowAnyOrigin()
+            //        .AllowAnyHeader()
+            //        .AllowAnyMethod().Build();
+            //    })
+            //    );
+
+
+            ////Start the UI inMemory Db project but there was no time.
+            //// The plan was; get doctors and slots data. And add this data to db. 
+            //// Also normal user can auhenticate and get book appointmnt. Admin user can export the data. 
+            //// So i try to add auth service and give claim for the user. And save user and authorization details in db.
+
+            //builder.Services.AddScoped<InMemoryDb>(); 
 
             //builder.Services.AddScoped<IUserService, UserService>();
 
@@ -48,7 +68,7 @@ namespace BackendCase
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-            app.UseCors("myCors");
+            //app.UseCors("myCors");
 
             app.MapControllers();
 

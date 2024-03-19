@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackEndCaseUnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2875fc801591043f09c8b99e509c731ceedaa75b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2544e25f5ba0a01aab14abb8b11fc4b9c7456a62")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackEndCaseUnitTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackEndCaseUnitTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
